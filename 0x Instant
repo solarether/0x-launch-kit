@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="https://instant.0x.org/instant.js"></script>
+    </head>
+    <body>
+        <script>
+            zeroExInstant.render({
+                orderSource: 'https://sra.bamboorelay.com/0x/v2/',
+                affiliateInfo: {
+                    feeRecipient: '0xcdb42293b795d14d392b07d6ec5c5cee091dc7d0',
+                    feePercentage: 0.03
+                },
+                availableAssetDatas: [
+                    '0xf47261b0000000000000000000000000514910771af9ca656af840dff83e8264ecf986ca', 
+                    '0xf47261b000000000000000000000000089d24a6b4ccb1b6faa2625fe562bdd9a23260359', 
+                    '0xf47261b00000000000000000000000009f8f72aa9304c8b593d555f12ef6589cc3a579a2', 
+                    '0xf47261b0000000000000000000000000d26114cd6ee289accf82350c8d8487fedb8a0c07', 
+                    '0xf47261b0000000000000000000000000e41d2489571d322189246dafa5ebde1f4699f498'
+                ]
+                }, 'body');
+            </script>
+        </body>
+    </html>
